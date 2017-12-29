@@ -15,6 +15,7 @@ Katherine is a multi-platform machine-learning based chatbot with day to day cap
 * Create the deep learning algorithm for recognizing user input and creating an eloquent answer.
 * Add emotions and user modes that will fit different situations.
 * Find a way to use the deep learning algorithm to recognize when the user requests something.
+* Add text-to-speech.
 
 
 ### Author notes
