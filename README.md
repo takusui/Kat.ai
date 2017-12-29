@@ -5,6 +5,7 @@ Katherine is a multi-platform machine-learning based chatbot with day to day cap
 ## Requirements
 
 * Python 2.7+
+* Kivy 1.10.0+
 <br> More to be added.
 
 ### Bucketlist
