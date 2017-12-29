@@ -1,4 +1,6 @@
-// This script uses phantomjs to grab weather data from accuweather. 
+// This script uses phantomjs to grab weather data from accuweather.
+// Reference for future capabilities.
+// NOT TO BE KEPT.
 
 var page = require('webpage').create();
 page.settings.userAgent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36';
