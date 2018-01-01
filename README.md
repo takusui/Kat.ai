@@ -12,11 +12,12 @@ Katherine is a multi-platform machine-learning based chatbot with day to day cap
 * Build the graphical interface using kivy.
 * Add Live2d with OpenGL
 * Implement a back-up system using a cloud of user's choice.
-* Add day to day capabilities like alarms, weather report, books and song recommendations, task reminder, etc.
+* Add day to day capabilities like alarms, weather report, books and song recommendations, task reminder, finance, news, groceries, etc.
 * Create the deep learning algorithm for recognizing user input and creating an eloquent answer.
 * Add emotions and user modes that will fit different situations.
 * Find a way to use the deep learning algorithm to recognize when the user requests something.
 * Add text-to-speech.
+* Modify the weather script to get a more accurate prediction and make it much faster.
 
 
 ### Author notes
