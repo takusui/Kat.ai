@@ -37,4 +37,4 @@ Katherine is a multi-platform machine-learning based chatbot with day to day cap
 
 I'm still in the brainstorming process. I created this repository with the intention to keep track of my work and hopefully become more motivated with this project. I don't know how much I can do in the following months because I have some exams to take care of, but I believe that I will start working consistently on this project in the summer.
 
-If you have any ideas regarding an item in the buckerlist or think it would be cool to add another feature, please drop a line!
+If you have any ideas regarding an item on the buckerlist or think it would be cool to add another feature, please drop a line!
