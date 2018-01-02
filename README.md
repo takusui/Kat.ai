@@ -40,14 +40,14 @@ I'm still in the brainstorming process. I created this repository with the inten
 If you have any ideas regarding an item on the buckerlist or think it would be cool to add another feature, please drop a line!
 
 ## Future resources
-Expression recognition: https://www.paulekman.com/
-Dialog engine: https://github.com/gunthercox/ChatterBot
-Natural language processing: http://www.nltk.org/book_1ed/
-Text data sets:
-https://github.com/zygmuntz/goodbooks-10k
-http://deeplearning.net/datasets/
-https://github.com/rockyzhengwu/FoolNLTK
-Voice data sets:
-https://github.com/vocobox/human-voice-dataset
-http://www.speech.cs.cmu.edu/databases/an4/
+Expression recognition: https://www.paulekman.com/ <br>
+Dialog engine: https://github.com/gunthercox/ChatterBot <br>
+Natural language processing: http://www.nltk.org/book_1ed/ <br>
+Text data sets: <br>
+https://github.com/zygmuntz/goodbooks-10k <br>
+http://deeplearning.net/datasets/ <br>
+https://github.com/rockyzhengwu/FoolNLTK <br>
+Voice data sets: <br>
+https://github.com/vocobox/human-voice-dataset <br>
+http://www.speech.cs.cmu.edu/databases/an4/ <br>
 Google Translate API: https://github.com/matheuss/google-translate-api
