@@ -38,3 +38,16 @@ Katherine is a multi-platform machine-learning based chatbot with day to day cap
 I'm still in the brainstorming process. I created this repository with the intention to keep track of my work and hopefully become more motivated with this project. I don't know how much I can do in the following months because I have some exams to take care of, but I believe that I will start working consistently on this project in the summer.
 
 If you have any ideas regarding an item on the buckerlist or think it would be cool to add another feature, please drop a line!
+
+## Future resources
+Expression recognition: https://www.paulekman.com/
+Dialog engine: https://github.com/gunthercox/ChatterBot
+Natural language processing: http://www.nltk.org/book_1ed/
+Text data sets:
+https://github.com/zygmuntz/goodbooks-10k
+http://deeplearning.net/datasets/
+https://github.com/rockyzhengwu/FoolNLTK
+Voice data sets:
+https://github.com/vocobox/human-voice-dataset
+http://www.speech.cs.cmu.edu/databases/an4/
+Google Translate API: https://github.com/matheuss/google-translate-api
