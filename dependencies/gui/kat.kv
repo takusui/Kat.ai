@@ -1,0 +1,158 @@
+#:kivy 1.10.0
+#:import Factory kivy.factory.Factory
+
+<Manager>:
+    MainW:
+        name: 'main'
+    Chat:
+        name: 'chat'
+    Stgs:
+        name: 'settings'
+
+<MyPopup@ModalView>:
+    size_hint: None, None
+    size: 300, 200
+    background_color: 0.4, 0.4, 0.4, 0.5
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 15, 15, 15, 15
+        cols: 2
+        Label:
+            color: 0.7, 0, 0, 0.9
+            center_x: root.center_x
+            center_y: root.center_y
+            text: 'Are you sure you want to exit?'
+        BoxLayout:
+            size_hint: 1, 0.4
+            Button:
+                color: 0.7, 0, 0, 0.9
+                background_color: 0.4, 0.4, 0.4, 0.1
+                text: 'Yes'
+                on_release: exit()
+            Button:
+                color: 0.7, 0, 0, 0.9
+                background_color: 0.4, 0.4, 0.4, 0.1
+                text: 'No'
+                on_release: root.dismiss()
+
+<MainW, Chat>:
+    canvas:
+        Rectangle:
+            pos: self.x, 0
+            size: self.width, self.height
+    
+    Button:
+        id: stgs
+        background_down: './icons/settings-press.png'
+        background_normal: './icons/settings.png'
+        border: 0, 0, 0, 0
+        always_release: True
+        right: root.right - 20
+        top: root.top - 10
+        size: 40, 40
+        size_hint: None, None
+        on_release:
+            root.manager.transition.direction = 'down'
+            root.manager.current = 'settings'
+        
+
+<MainW>:
+    Button:
+        id: bck
+        background_down: './icons/back-press.png'
+        background_normal: './icons/back.png'
+        border: 0, 0, 0, 0
+        x: root.x + 20
+        top: root.top - 10
+        size: 40, 40
+        size_hint: None, None
+        on_release: Factory.MyPopup().open()
+
+    Button:
+        id: mcphne
+        background_down: './icons/microphone-press.png'
+        background_normal: './icons/microphone.png'
+        border: 0, 0, 0, 0
+        center_x: root.width / 2
+        y: root.y + 40
+        size: 50, 50
+        size_hint: None, None
+        on_release:
+            root.manager.transition.direction = 'left'
+            root.manager.current = 'chat'
+
+<Chat>:
+
+    Button:
+        id: bck
+        background_down: './icons/back-press.png'
+        background_normal: './icons/back.png'
+        border: 0, 0, 0, 0
+        x: root.x + 20
+        top: root.top - 10
+        size: 40, 40
+        size_hint: None, None
+        on_release:
+            root.manager.transition.direction = 'right'
+            root.manager.current = 'main'
+
+    BoxLayout:
+        orientation: 'horizontal'
+        padding: 10, 10, 10, 10
+        cols: 2
+        Image:
+            id: inpimg
+            source: './icons/user_inp.png'
+            x: root.x + 10
+            y: root.y + 10
+            size: root.width - 40, 40
+            size_hint: 0.9, None
+            allow_stretch: True
+            keep_ratio: False
+            TextInput:
+                id: usrinp
+                valign: 'middle'
+                halign: 'left'
+                font_size: 16
+                multiline: True
+                x: root.ids['inpimg'].x + 10
+                y: root.ids['inpimg'].y + 5
+                background_color: 0, 0, 0, 0
+                size: root.width - 80, 33
+    
+        Button:
+            id: post
+            foreground_color: 0, 0, 0, 0
+            background_down: './icons/type1-press.png'
+            background_normal: './icons/type1.png'
+            border: 0, 0, 0, 0
+            size: 40, 40
+            x: root.width * 14/17 + 5
+            y: root.y + 20
+            size_hint: None, None
+
+<Stgs>:
+    canvas:
+        Rectangle:
+            pos: self.x, 0
+            size: self.width, self.height
+    Button:
+        id: bck
+        background_down: './icons/back-press.png'
+        background_normal: './icons/back.png'
+        border: 0, 0, 0, 0
+        x: root.x + 20
+        top: root.top - 10
+        size: 40, 40
+        size_hint: None, None
+        on_release:
+            root.manager.transition.direction = 'up'
+            root.manager.current = 'main'
+
+    Label:
+        center_x: self.center_x
+        center_y: self.center_y
+        text: 'The settings menu'
+        color: 1, 0, 0, 1
+
+        
