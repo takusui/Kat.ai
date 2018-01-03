@@ -1,32 +1,32 @@
-''' Docstring placeholder. '''
+''' 
+Kat's GUI uses kivy 1.10.0.
+The apparel code is in the kat.kv file.
+Find a way to swap between microphone and chat.
+Maybe add an animation that will bring the microphone
+down in the bar and move the chat up, occupying half
+of the page.
+'''
 
 from kivy.app import App
 from kivy.uix.screenmanager import ScreenManager, Screen
 
 class MainW(Screen):
-    ''' Docstring placeholder. '''
     pass
 
 class Chat(Screen):
-    ''' Docstring placeholder.'''
     pass
 
 class Stgs(Screen):
     '''
-    Docstring placeholder.
     Make a function to remember on which screen you were before
     you pressed the button to return to it.
     '''
-    # def lastscreen(self):
-    #     lastscrn = self.root.manager.current
     pass
 
 class Manager(ScreenManager):
-    ''' Docstring placeholder. '''
     pass
 
 class KatApp(App):
-    ''' Docstring placeholder. '''
     def build(self):
         return Manager()
 
