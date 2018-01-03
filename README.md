@@ -12,7 +12,7 @@ Katherine is a multi-platform machine-learning based chatbot with day to day cap
 
 ### Things that require immediate attention
 * Build the graphical interface using kivy.
-* Add Live2d with OpenGL
+* Add Live2d or 3d models with OpenGL
 * Create the deep-learning algorithm for recognizing user input and creating an eloquent answer.
 * Add text-to-speech.
 * Modify the weather script to get a more accurate prediction and make it much faster.
@@ -35,9 +35,7 @@ Katherine is a multi-platform machine-learning based chatbot with day to day cap
  
 ## Author notes
 
-I'm still in the brainstorming process. I created this repository with the intention to keep track of my work and hopefully become more motivated with this project. I don't know how much I can do in the following months because I have some exams to take care of, but I believe that I will start working consistently on this project in the summer.
-
-If you have any ideas regarding an item on the buckerlist or think it would be cool to add another feature, please drop a line!
+This will be a long journey. I created this repository with the intention to keep track of my work and hopefully become more motivated with this project. I don't know how much I can do in the following months because I have some exams to take care of, but I believe that I will start working consistently on this project after graduating this year from highschool. I'm open to new ideas and hopefully, with the experience I will gather in the next few years and with the development of open source technologies that I could use, I can bring Kat to a build that is working decently.
 
 ## Future resources
 Expression recognition: https://www.paulekman.com/ <br>
