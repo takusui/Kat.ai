@@ -1,11 +1,21 @@
 # Kat.ai
 
-Katherine is a multi-platform machine-learning based chatbot with day to day capabilities that tries to learn and adapt while talking with you.
+Kat.ai, or Kat for short, is a multi-platform chatbot with day to day capabilities that adapts while talking with you. This project aims to speed up the transition of AI into people's life by providing the user with ease of access. Kat will be able to run in any environment and, by using the ChatterBot dialog engine, speak any language.
+
+The posibilities are unlimited when it comes to the customization:
+* Add your own 3d or 2d models.
+* Custom backgrounds (2d and 3d).
+* User made themes.
+* Add your own voice bank.
+* Implement custom commands.
+* Sculpt Kat's personality to match your own or make it the opposite.
+* More to come.
 
 ## Requirements
 
 * Python 2.7+
 * Kivy 1.10.0+
+* ChatterBot 0.8.1
 <br> More to be added.
 
 ## Bucketlist
