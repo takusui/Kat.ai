@@ -19,6 +19,8 @@ def listen():
 
         try:
             recog = recognize.recognize_sphinx(audio)
+            # print is used for debugging, change it to apply this
+            # function in other programs.
             print recog
             r = False
 
