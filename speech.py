@@ -16,8 +16,10 @@ def listen():
         with sr.Microphone() as source:
             recognize.adjust_for_ambient_noise(source)      # sets the energy treshold automatically
             audio = recognize.listen(source)
+
         try:
-            recognize.recognize_sphinx(audio)
+            recog = recognize.recognize_sphinx(audio)
+            print recog
             r = False
 
         except sr.UnknownValueError:
@@ -29,4 +31,6 @@ def listen():
             print("Recog Error; {0}".format(e))
             r = False
             
-        return ''
+        return recog
+
+listen()
