@@ -1,14 +1,23 @@
 ''' 
-Kat's GUI uses kivy 1.10.0.
-The apparel code is in the kat.kv file.
-Find a way to swap between microphone and chat.
-Maybe add an animation that will bring the microphone
-down in the bar and move the chat up, occupying half
-of the page.
-'''
+This is the GUI for the Android version.
+Work in progress.
+To do:
+- make another .png for the chatbox that scales better
+- find a way to add messages
+- find a way to keep messages
+- find a way to add the transition between chat and microphone (one goes
+up and one goes down)
 
+Current problems:
+- post button keeps jumping from its original position
+- after deleting text from a new line, a space remains that won't allow the 
+chat box to go back to its original size
+
+'''
 from kivy.app import App
 from kivy.uix.screenmanager import ScreenManager, Screen
+
+lastscreen = 'main'
 
 class MainW(Screen):
     pass
@@ -17,10 +26,6 @@ class Chat(Screen):
     pass
 
 class Stgs(Screen):
-    '''
-    Make a function to remember on which screen you were before
-    you pressed the button to return to it.
-    '''
     pass
 
 class Manager(ScreenManager):
