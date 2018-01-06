@@ -34,9 +34,10 @@ The posibilities are endless when it comes to the customization:
 
 ### Long term goals
 * Implement animations.
-* Implement face, voice and mood recognizing features.
+* Implement face, voice and mood recognition features.
 * Add emotions and user modes that will fit different situations.
 * Make Kat remember previous messages in the conversations.
+* Enable real-time access on all devices, meaning that you can talk with her on your phone and see the result on your personal computer without too much delay.
 
 ### Never-ending goals
 * Improve the accuarcy of the deep-learning algorithm.
