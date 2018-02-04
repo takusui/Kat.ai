@@ -37,7 +37,8 @@ The posibilities are endless when it comes to the customization:
 * Implement face, voice and mood recognition features.
 * Add emotions and user modes that will fit different situations.
 * Make Kat remember previous messages in the conversations.
-* Enable real-time access on all devices, meaning that you can talk with her on your phone and see the result on your personal computer without too much delay.
+* Enable real-time access on all devices, meaning that you can talk with her on your phone and see the result on your personal computer without delay.
+* Allow user to add his own algorithms (ex: fridge has run out of milk, pulling the curtains in the morning, etc.)
 
 ### Never-ending goals
 * Improve the accuarcy of the deep-learning algorithm.
