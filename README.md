@@ -31,6 +31,7 @@ The posibilities are endless when it comes to the customization:
 * Find a way to use the deep learning algorithm to recognize when the user requests something.
 * Add day to day capabilities like alarms, weather report, books and song recommendations, task reminder, finance, news, groceries, etc.
 * Enable user to add his own 3d or 2d models.
+* Add the option to answer the user's emails and messages while busy.
 
 ### Long term goals
 * Implement animations.
