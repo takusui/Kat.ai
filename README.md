@@ -12,7 +12,7 @@ The posibilities are endless when it comes to the customization:
 
 ## Requirements
 
-* Python 2.7+
+* Python 3.6+
 * Kivy 1.10.0+
 * ChatterBot 0.8.1
 <br> More to be added.
