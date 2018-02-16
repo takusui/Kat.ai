@@ -50,6 +50,8 @@ The posibilities are endless when it comes to the customization:
 
 This will be a long journey. I created this repository with the intention to keep track of my work and hopefully become more motivated with this project. I don't know how much I can do in the following months because I have some exams to take care of, but I believe that I will start working consistently on this project after graduating this year from highschool. I'm open to new ideas and hopefully, with the experience I will gather in the next few years and with the development of open source technologies that I could use, I can bring Kat to a build that is working decently.
 
+My main focus for now is to finish the Android app and move on to the Windows/ Linux one. When I think about what this would look like in its final version, I imagine something like a next-gen Alexa that you can interact with fully. More than that, I want to enable her to learn on her own, just like a child that you teach for a while to ride a bike and then take off its training wheels. Let's only hope that the singularity will never happen.
+
 ## Future resources
 Expression recognition: https://www.paulekman.com/ <br>
 Dialog engine: https://github.com/gunthercox/ChatterBot <br>
