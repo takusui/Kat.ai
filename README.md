@@ -31,15 +31,16 @@ The posibilities are endless when it comes to the customization:
 * Find a way to use the deep learning algorithm to recognize when the user requests something.
 * Add day to day capabilities like alarms, weather report, books and song recommendations, task reminder, finance, news, groceries, etc.
 * Enable user to add his own 3d or 2d models.
-* Add the option to answer the user's emails and messages while busy.
+* Add the option to answer the user's emails and messages while he's busy.
 
 ### Long term goals
 * Implement animations.
 * Implement face, voice and mood recognition features.
 * Add emotions and user modes that will fit different situations.
 * Make Kat remember previous messages in the conversations.
-* Enable real-time access on all devices, meaning that you can talk with her on your phone and see the result on your personal computer without delay.
+* Enable real-time access on all devices, meaning that you can talk with her on your phone and see the result on your personal computer, without delay.
 * Allow user to add his own algorithms (ex: fridge has run out of milk, pulling the curtains in the morning, etc.)
+* Implement mixed reality/ holograms.
 
 ### Never-ending goals
 * Improve the accuarcy of the deep-learning algorithm.
