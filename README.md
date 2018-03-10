@@ -1,6 +1,6 @@
 # Kat.ai
 
-Kat.ai, or Kat for short, is a multi-platform chatbot with day to day capabilities that adapts while talking with you. This project aims to speed up the transition of AI into people's life by providing the user with ease of access. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
+Kat.ai is a multi-platform chatbot that adapts while talking with you. This project aims to speed up the transition of AI into people's life by providing the user with ease of access. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
 
 The posibilities are endless when it comes to the customization:
 * Add your own 3d or 2d models and backgrounds.
