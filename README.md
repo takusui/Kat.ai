@@ -1,6 +1,6 @@
 # Kat.ai
 
-Kat.ai, or Kat for short, is a multi-platform chatbot with day to day capabilities that adapts while talking with you. This project aims to speed up the transition of AI into people's life by providing the user with ease of access. Kat will be able to run in any environment and, by using the ChatterBot dialog engine, speak any language.
+Kat.ai, or Kat for short, is a multi-platform chatbot with day to day capabilities that adapts while talking with you. This project aims to speed up the transition of AI into people's life by providing the user with ease of access. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
 
 The posibilities are endless when it comes to the customization:
 * Add your own 3d or 2d models and backgrounds.
@@ -12,9 +12,9 @@ The posibilities are endless when it comes to the customization:
 
 ## Requirements
 
-* Python 3.6+
-* Kivy 1.10.0+
-* ChatterBot 0.8.1
+* Python 3.6
+* Kivy 1.10
+* Tensorflow 1.4
 <br> More to be added.
 
 ## Bucketlist
@@ -50,7 +50,7 @@ The posibilities are endless when it comes to the customization:
 
 This will be a long journey. I created this repository with the intention to keep track of my work and hopefully become more motivated with this project. I don't know how much I can do in the following months because I have some exams to take care of, but I believe that I will start working consistently on this project after graduating this year from highschool. I'm open to new ideas and hopefully, with the experience I will gather in the next few years and with the development of open source technologies that I could use, I can bring Kat to a build that is working decently.
 
-My main focus for now is to finish the Android app and move on to the Windows/ Linux one. When I think about what this would look like in its final version, I imagine something like a next-gen Alexa that you can interact with fully. More than that, I want to enable her to learn on her own, just like a child that you teach for a while to ride a bike and then take off its training wheels. Let's only hope that the singularity will never happen.
+My main focus for now is to finish the Android app and move on to the cross-platform one. When I think about what this would look like in its final version, I imagine something like a next-gen Alexa that you can interact with fully. More than that, I want to enable her to learn on her own, like a child that you teach for a while to ride a bike and then take off its training wheels. Let us hope that the singularity will never happen.
 
 ## Future resources
 Expression recognition: https://www.paulekman.com/ <br>
