@@ -1,4 +1,4 @@
-<img src='https://raw.githubusercontent.com/takusui/Kat.ai/master/git/title.png' height="80">
+<img src='https://raw.githubusercontent.com/takusui/Kat.ai/master/git/title-logo.png' height="80">
 
 Kat.ai is a multi-platform chatbot that adapts while talking with you. This project aims to speed up the transition of AI into people's life by providing the user with ease of access. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
 
