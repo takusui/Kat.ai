@@ -20,9 +20,19 @@ Kat.ai will use a minimally trained sequence-to-sequence model built in Tensorfl
 
 ![](https://raw.githubusercontent.com/takusui/Kat.ai/0e74c223a9b6e5eae9f37110425379dd58e1f4e8/git/seq2seq.png)
 
-The model will try to improve itself by asking questions about words that it hasn't encountered before or by searching their definition on the internet. If one is found, you will be asked to confirm if it's correct.
+The model will try to improve itself by asking questions about words that it hasn't encountered before or by searching their definition on the internet. If one is found, you will be asked to confirm if it is correct.
 
+### Speech
+I will focus on the deep generative model of raw audio waveforms made by Google's DeepMind, WaveNet. Here are some examples from their website:
 
+Parametric
+<audio src="https://github.com/takusui/Kat.ai/blob/master/git/parametric-1.wav" controls preload></audio>
+
+Concatenative
+<audio src="https://github.com/takusui/Kat.ai/blob/master/git/concatenative-1.wav" controls preload></audio>
+
+WaveNet
+<audio src="https://github.com/takusui/Kat.ai/blob/master/git/wavenet-1.wav" controls preload></audio>
 
 ## [Bucketlist](https://github.com/takusui/Kat.ai/wiki/Bucketlist)
  
