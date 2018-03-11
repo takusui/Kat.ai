@@ -42,7 +42,7 @@ One other option would be to use [HyperFace](https://arxiv.org/pdf/1603.01249.pd
 We will use a Deep Neural Network model made in Tensorflow. The training will be done using the [Radboud Faces Database](http://www.socsci.ru.nl:8180/RaFD2/RaFD?p=main) or [Paul Ekman's database](https://www.paulekman.com/).
 
 * __Sentiment Analysis__ <br>
-A [research paper](http://www.aclweb.org/anthology/D16-1024) from Peking University presented a way to do this using a Long Short Term Memory network. For this to work, I will use an [Amazon reviews database](https://snap.stanford.edu/data/web-Amazon.html) that has 35 million samples.I will try to keep an eye out for ways to make this more efficient.
+A [research paper](http://www.aclweb.org/anthology/D16-1024) from Peking University presented a way to do this using a Long Short Term Memory network. For this to work, I will use an [Amazon reviews database](https://snap.stanford.edu/data/web-Amazon.html) that has 35 million samples. I will try to keep an eye out for ways to make this more efficient.
 
 ### Higher mental functions
 I can not fathom out what it would take for an AI to have a judgement of its own. At the moment, I am reading different books on this subject to understand the concepts behind human psychology. 
