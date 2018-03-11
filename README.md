@@ -1,14 +1,13 @@
 <img src='https://raw.githubusercontent.com/takusui/Kat.ai/master/git/kat-logo.png' height="80">
 
-Kat.ai is a multi-platform chatbot that adapts while talking with you. This project aims to speed up the transition of AI into people's life by providing the user with ease of access. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
+Kat.ai is a multi-platform chatbot that adapts while talking with you. This project aims to speed up the development of intelligent bots and make them available for anyone who has enough computation power. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
 
 There are many posibilities when it comes to the customization:
 * Add your own 3D or 2D models and backgrounds.
-* User made themes.
 * Add your own voice bank.
 * Implement custom commands.
-* Sculpt Kat's personality to match your own or make it the opposite.
-* More to come.
+* Sculpt Kat's personality to match your taste.
+* Add pictures of you or of your friends so she can recognize you/them.
 
 ## Brain structure
 ![](https://raw.githubusercontent.com/takusui/Kat.ai/master/git/brain.png)
@@ -22,8 +21,12 @@ Kat.ai will use a minimally trained sequence-to-sequence model built in Tensorfl
 
 The model will try to improve itself by asking questions about words that it hasn't encountered before or by searching their definition on the internet. If one is found, you will be asked to confirm if it is correct. Obviously, if you trust a source, you can make the bot learn without asking you. It will try to identify idioms on its own and add them to the database.
 
+To start with, I will train it for the English language and slowly move on to Chinese, Spanish, French and other languages that have enough samples to feed the model. Things will get really interesting when I'll have to find a way to avoid learning only one definition for a word.
+
+
+
 ### Speech
-I will use the deep generative model of raw audio waveforms made by DeepMind, WaveNet. Check their [website](https://deepmind.com/blog/wavenet-generative-model-raw-audio/) to hear some [examples](https://storage.googleapis.com/deepmind-media/pixie/us-english/wavenet-1.wav).
+I will use the deep generative model of raw audio waveforms made by DeepMind, [WaveNet](https://deepmind.com/blog/wavenet-generative-model-raw-audio/). Here is an [example](https://storage.googleapis.com/deepmind-media/pixie/us-english/wavenet-1.wav) of what it is capable of. 
 
 ### Hearing
 For now, Mozzila's [DeepSpeech](https://github.com/mozilla/DeepSpeech) seems promising. 
@@ -31,10 +34,11 @@ For now, Mozzila's [DeepSpeech](https://github.com/mozilla/DeepSpeech) seems pro
 ### Image/object recognition
 Tensorflow already has an [Object detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) which works perfectly for the objective of this project.
 
-### Facial recognition
-The first step is to choose a system between [OpenFace](https://github.com/cmusatyalab/openface) and [DeepFace](https://github.com/RiweiChen/DeepFace). To make things fun, I will add the option to add your own face to the database so you can be identified by Kat.
+### Text recognition
+A real time implementation will most likely be done using the same system above to save some computing power. A place to start researching more about this would be [EAST](https://github.com/argman/EAST).
 
-One other option would be to use [HyperFace](https://arxiv.org/pdf/1603.01249.pdf) for real time detection, but I will see which system is more computationally efficient.
+### Facial recognition
+The first step is to choose the most efficient system between [OpenFace](https://github.com/cmusatyalab/openface), [DeepFace](https://github.com/RiweiChen/DeepFace) and [HyperFace](https://arxiv.org/pdf/1603.01249.pdf). To make things fun, I will add the option to add your own face to the database so you can be identified by Kat.
 
 ### Emotion
 
@@ -42,7 +46,7 @@ One other option would be to use [HyperFace](https://arxiv.org/pdf/1603.01249.pd
 We will use a Deep Neural Network model made in Tensorflow. The training will be done using the [Radboud Faces Database](http://www.socsci.ru.nl:8180/RaFD2/RaFD?p=main) or [Paul Ekman's database](https://www.paulekman.com/).
 
 * __Sentiment Analysis__ <br>
-A [research paper](http://www.aclweb.org/anthology/D16-1024) from Peking University presented a way to do this using a Long Short Term Memory network. For this to work, I will use an [Amazon reviews database](https://snap.stanford.edu/data/web-Amazon.html) that has 35 million samples. I will try to keep an eye out for ways to make this more efficient.
+A [research paper](http://www.aclweb.org/anthology/D16-1024) from Peking University presented a way to do this using a Long Short Term Memory network. For this to work, I will use this [database](https://snap.stanford.edu/data/web-Amazon.html) that contains 35 million Amazon reviews. I will try to keep an eye out for ways to make this more efficient.
 
 ### Higher mental functions
 I can not fathom out what it would take for an AI to have a judgement of its own. At the moment, I am reading different books on this subject to understand the concepts behind human psychology. 
