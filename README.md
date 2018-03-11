@@ -38,11 +38,26 @@ One other option would be to use [HyperFace](https://arxiv.org/pdf/1603.01249.pd
 
 ### Emotion
 
-* __Facial emotions__
+* __Facial emotions__ <br>
 We will use a Deep Neural Network model made in Tensorflow. The training will be done using the [Radboud Faces Database](http://www.socsci.ru.nl:8180/RaFD2/RaFD?p=main) or [Paul Ekman's database](https://www.paulekman.com/).
 
-* __Sentiment Analysis__
+* __Sentiment Analysis__ <br>
 A [research paper](http://www.aclweb.org/anthology/D16-1024) from Peking University presented a way to do this using a Long Short Term Memory network. For this to work, I will use an [Amazon reviews database](https://snap.stanford.edu/data/web-Amazon.html) that has 35 million samples.I will try to keep an eye out for ways to make this more efficient.
+
+### Higher mental functions
+I can not fathom out what it would take for an AI to have a judgement of its own. At the moment, I am reading different books on this subject to understand the concepts behind human psychology. 
+
+Once this will be taken care of, who knows where we will be headed? Only time can tell. 
+
+Let us hope that the singularity will never happen.
+
+## Body
+Work in progress.
+
+## Drawbacks
+The goal of this project is to run all of the previously mentioned systems at once. This means that a lot of RAM and VRAM is needed to process visual cues, text and body functions.
+
+Using cloud computing, for now, is out of the question. 
 
 ## [Bucketlist](https://github.com/takusui/Kat.ai/wiki/Bucketlist)
  
@@ -50,6 +65,6 @@ A [research paper](http://www.aclweb.org/anthology/D16-1024) from Peking Univers
 
 This will be a long journey. I created this repository with the intention to keep track of my work and hopefully become more motivated with this project. I don't know how much I can do in the following months because I have some exams to take care of, but I believe that I will start working consistently on this project after graduating this year from highschool. I'm open to new ideas and hopefully, with the experience I will gather in the next few years and with the development of open source technologies that I could use, I can bring Kat to a build that is working decently.
 
-My main focus for now is to finish the Android app and move on to the cross-platform one. When I think about what this would look like in its final version, I imagine something like a next-gen Alexa that you can interact with fully. More than that, I want to enable her to learn on her own, like a child that you teach for a while to ride a bike and then take off its training wheels. Let us hope that the singularity will never happen.
+Of course, I can't do all of this on my own. I am looking for other people interested in developing the next-gen virtual bots. If you would like to contribute, please leave a message in the Issues tab.
 
 More info can be found on the wiki.
