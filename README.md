@@ -23,7 +23,7 @@ Kat.ai will use a minimally trained sequence-to-sequence model built in Tensorfl
 The model will try to improve itself by asking questions about words that it hasn't encountered before or by searching their definition on the internet. If one is found, you will be asked to confirm if it is correct. Obviously, if you trust a source, you can make the bot learn without asking you. It will try to identify idioms on its own and add them to the database.
 
 ### Speech
-I will use the deep generative model of raw audio waveforms made by DeepMind, WaveNet. Check their [website](https://deepmind.com/blog/wavenet-generative-model-raw-audio/) to see some [examples](https://storage.googleapis.com/deepmind-media/pixie/us-english/wavenet-1.wav).
+I will use the deep generative model of raw audio waveforms made by DeepMind, WaveNet. Check their [website](https://deepmind.com/blog/wavenet-generative-model-raw-audio/) to hear some [examples](https://storage.googleapis.com/deepmind-media/pixie/us-english/wavenet-1.wav).
 
 ### Hearing
 For now, Mozzila's [DeepSpeech](https://github.com/mozilla/DeepSpeech) seems promising. 
