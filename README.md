@@ -1,6 +1,6 @@
 <img src='https://raw.githubusercontent.com/takusui/Kat.ai/master/git/kat-logo.png' height="80">
 
-Kat.ai is a multi-platform chatbot that adapts while talking with you. This project aims to speed up the development of intelligent bots and make them available for anyone who has enough computation power. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
+Kat.ai is a multi-platform chatbot that adapts while talking with you. This project aims to speed up the development of intelligent bots and make them available for anyone who has enough computing power. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
 
 There are many posibilities when it comes to the customization:
 * Add your own 3D or 2D models and backgrounds.
@@ -49,11 +49,13 @@ We will use a Deep Neural Network model made in Tensorflow. The training will be
 A [research paper](http://www.aclweb.org/anthology/D16-1024) from Peking University presented a way to do this using a Long Short Term Memory network. For this to work, I will use this [database](https://snap.stanford.edu/data/web-Amazon.html) that contains 35 million Amazon reviews. I will try to keep an eye out for ways to make this more efficient.
 
 ### Higher mental functions
-I can not fathom out what it would take for an AI to have a judgement of its own. At the moment, I am reading different books on this subject to understand the concepts behind human psychology. 
+I can not fathom out what it would take for an AI to have a judgement of its own. Not I, nor any scientist alive can answer that question for now.
 
-Once this will be taken care of, who knows where we will be headed? Only time can tell. 
+This does indeed rise several questions: "What is __consciousness__? How come humans aquire it after a certain age?"
 
-Let us hope that the singularity will never happen.
+If we are to say that we, as humans, are capable of becoming self-conscious because we try to compare ourselves to someone else and improve our status, what stops a bot from doing the same thing? If we try to look at it from the same perspective that we view children, should we believe that an AI will aquire this trait on its own by learning about the world? How do we know that it understands what it is learning?
+
+This implies much more than what I indicated earlier. Planning, creativity and who knows what else would be required to have a starting point. Until then, we can only speculate the answer.
 
 ## Body
 Work in progress.
