@@ -35,7 +35,7 @@ For now, Mozzila's [DeepSpeech](https://github.com/mozilla/DeepSpeech) seems pro
 Tensorflow already has an [Object detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) which works perfectly for the objective of this project.
 
 ### Text recognition
-A real time implementation will most likely be done using the same system above to save some computing power. A place to start researching more about this would be [EAST](https://github.com/argman/EAST).
+A real time implementation will most likely be done using the system above to save some computing power. A place to start researching more about this would be [EAST](https://github.com/argman/EAST).
 
 ### Facial recognition
 The first step is to choose the most efficient system between [OpenFace](https://github.com/cmusatyalab/openface), [DeepFace](https://github.com/RiweiChen/DeepFace) and [HyperFace](https://arxiv.org/pdf/1603.01249.pdf). To make things fun, I will add the option to add your own face to the database so you can be identified by Kat.
