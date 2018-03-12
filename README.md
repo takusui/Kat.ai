@@ -51,7 +51,7 @@ A [research paper](http://www.aclweb.org/anthology/D16-1024) from Peking Univers
 ### Higher mental functions
 I can not fathom out what it would take for an AI to have a judgement of its own. Not I, nor any scientist alive can answer that question for now.
 
-This does indeed rise several questions: "What is __consciousness__? How come humans aquire it after a certain age?"
+This does indeed raise several questions: "What is __consciousness__? How come humans aquire it after a certain age?"
 
 If we are to say that we, as humans, are capable of becoming self-conscious because we try to compare ourselves to someone else and improve our status, what stops a bot from doing the same thing? If we try to look at it from the same perspective that we view children, should we believe that an AI will aquire this trait on its own by learning about the world? How do we know that it understands what it is learning?
 
