@@ -49,7 +49,7 @@ We will use a Deep Neural Network model made in Tensorflow. The training will be
 A [research paper](http://www.aclweb.org/anthology/D16-1024) from Peking University presented a way to do this using a Long Short Term Memory network. For this to work, I will use this [database](https://snap.stanford.edu/data/web-Amazon.html) that contains 35 million Amazon reviews. I will try to keep an eye out for ways to make this more efficient.
 
 ### Higher mental functions
-I can not fathom out what it would take for an AI to have a judgement of its own. Not I, nor any scientist alive can answer that question for now.
+I can not fathom out what it would take for an AI to have a judgement of its own.
 
 This does indeed raise several questions: "What is __consciousness__? How come humans aquire it after a certain age?"
 
