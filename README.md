@@ -1,6 +1,6 @@
 <img src='https://raw.githubusercontent.com/takusui/Kat.ai/master/git/kat-logo.png' height="80">
 
-Kat.ai is a multi-platform chatbot that adapts while talking with you. This project aims to speed up the development of intelligent bots and make them available for anyone who has enough computing power. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
+Kat.ai is a multi-platform automaton, that tries to adapt to any situation. This project aims to speed up the development of intelligent bots and make them available for anyone who has enough computing power. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
 
 There are many posibilities when it comes to the customization:
 * Add your own 3D or 2D models and backgrounds.
@@ -71,6 +71,6 @@ Using cloud computing, for now, is out of the question.
 
 This will be a long journey. I created this repository with the intention to keep track of my work and hopefully become more motivated with this project. I don't know how much I can do in the following months because I have some exams to take care of, but I believe that I will start working consistently on this project after graduating this year from highschool. I'm open to new ideas and hopefully, with the experience I will gather in the next few years and with the development of open source technologies that I could use, I can bring Kat to a build that is working decently.
 
-Of course, I can't do all of this on my own. I am looking for other people interested in developing the next-gen virtual bots. If you would like to contribute, please leave a message in the Issues tab.
+Of course, I can't do all of this on my own. I am looking for other people interested in developing the next-gen automatons. If you would like to contribute, please leave a message in the Issues tab.
 
 More info can be found on the wiki.
