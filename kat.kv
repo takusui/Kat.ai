@@ -1,0 +1,201 @@
+#:kivy 1.10.0
+#:import Factory kivy.factory.Factory
+
+
+# Popup ce apare la iesirea din aplicatie.
+<MyPopup@ModalView>:
+    size_hint: None, None
+    size: 300, 150
+    background_color: 0.4, 0.4, 0.4, 0.5
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 15, 15, 15, 15
+        cols: 2
+        Label:
+            color: 1, 1, 1, 0.9
+            center_x: root.center_x
+            center_y: root.center_y
+            text: 'Are you sure you want to exit?'
+        BoxLayout:
+            size_hint: 1, 0.4
+            Button:
+                color: 1, 1, 1, 0.9
+                background_color: 0.4, 0.4, 0.4, 0.1
+                text: 'Yes'
+                on_release: exit()
+            Button:
+                color: 1, 1, 1, 0.9
+                background_color: 0.4, 0.4, 0.4, 0.1
+                text: 'No'
+                on_release: root.dismiss()
+
+<About@Popup>:
+    title: 'Despre proiect'
+    title_align: 'center'
+    size_hint: None, None
+    size: 300, 350
+    background_color: 0.4, 0.4, 0.4, 0.5
+    Label:
+        color: 1, 1, 1, 0.9
+        center_x: root.center_x
+        center_y: root.center_y
+        halign: 'center'
+        text:
+            '''Kat.ai\n\n
+            Atestat Informatică\n
+            Elev: Voinea Andrei\n
+            Clasa: a XII-a C\n
+            An de curs: 2017-2018\n
+            Colegiul Național "Unirea", Focșani '''
+
+<Message>:
+    id: msgimg
+    allow_stretch: True
+    keep_ratio: False
+    size_hint: None, None
+    height: mlab.height
+    width: mlab.width
+
+    Label:
+        id: mlab
+        center: root.center
+        padding: 10, 10
+        markup: True
+        text_size: (None, None)
+        text: ''
+        halign: 'left'
+        valign: 'top'
+        size_hint: (1, None)
+        size: self.texture_size
+        color: 0, 0, 0
+
+# Fereastra aplicatiei.
+BoxLayout:
+    orientation: 'vertical'
+
+    canvas:
+        Color:
+            # Codul pentru culoarea #5050
+            rgb: 0x99 / 255.0, 0x50 / 255.0, 0x50 / 255.0
+
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+    # Bara de sus.
+    # Aceasta contine butonul de iesire si butonul de setari.
+    FloatLayout:         
+        id: top_layer
+        padding: 0
+        size_hint: (1, None)
+        height: 40
+
+        # Butonul de iesire.
+        Button:
+            id: bck
+            background_down: './icons/back-press.png'
+            background_normal: './icons/back.png'
+            border: 0, 0, 0, 0
+            x: top_layer.x + 20
+            top: top_layer.top
+            size: 40, 40
+            size_hint: None, None
+            on_release: Factory.MyPopup().open()
+        Button:
+            id: about
+            background_down: './icons/about-press.png'
+            background_normal: './icons/about.png'
+            border: 0, 0, 0, 0
+            right: top_layer.right - 20
+            top: top_layer.top
+            size: 40, 40
+            size_hint: None, None
+            on_release: Factory.About().open()
+    
+    # In aceasta caseta se afla conversatia.
+    ScrollView:
+        height: root.height - top_layer.height - bot_layer.height
+        size_hint: 1, None
+        # Fundal de culoare alba.
+        canvas.before:
+            Color:
+                rgb: 1, 1, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+        BoxLayout:
+            orientation: 'vertical'
+            id: chatbox
+            padding: 10, 10
+            spacing: 5
+
+
+    # Caseta de introducere a textului.
+    BoxLayout:
+        id: bot_layer
+        orientation: 'horizontal'
+        padding: 10, 10, 10, 10
+        size_hint: 1, None
+        height: inpimg.height
+
+        Image:
+            source: './icons/user_inp_m_left.png'
+            size_hint: 0.9, None
+            height: max(40, scrlv.height)
+            allow_stretch: True
+            keep_ratio: False
+
+        # Imagine pentru caseta.
+        Image:
+            id: inpimg
+            source: './icons/user_inp.png'
+            height: max(40, scrlv.height)
+            size_hint: 0.9, None
+            allow_stretch: True
+            keep_ratio: False
+
+            # Acest modul introduce o bara de scroll.
+            ScrollView:
+                id: scrlv
+                pos: inpimg.pos
+                # Structura urmatoare calculeaza numarul de linii din
+                # caseta si o mareste in functie de acestea.
+                height:
+                    (len(usrinp._lines)+1) * usrinp.line_height \
+                    if (len(usrinp._lines)+1 <= 5) \
+                    else 5 * usrinp.line_height
+                width: inpimg.width
+
+                # Caseta de text propriu-zisa.
+                TextInput:
+                    id: usrinp
+                    valign: 'middle'
+                    halign: 'left'
+                    font_size: 16
+                    multiline: True
+                    size_hint: scrlv.size_hint_x, None
+                    height: (len(self._lines)+1) * self.line_height
+                    padding: 10, 0, 10, 0
+                    background_color: 0, 0, 0, 0
+            
+            Image:
+                source: './icons/user_inp_m_right.png'
+                size_hint: 0.9, None
+                height: max(40, scrlv.height)
+                allow_stretch: True
+                keep_ratio: False
+        
+        # Butonul de trimitere a textului catre caseta de conversatie.
+        Button:
+            id: post
+            foreground_color: 0, 0, 0, 0
+            background_down: './icons/type1-press.png'
+            background_normal: './icons/type1.png'
+            border: 0, 0, 0, 0
+            size: 40, 40
+            size_hint: None, None
+            on_release:
+                root.inp = usrinp.text
+                app.post()
+                app.resp(root.inp)
