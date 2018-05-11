@@ -65,8 +65,8 @@ Research in progress.
 If no model is given and if the user does not like the native one, it can be generated using a Generative Adversarial Network.
 
 ### Generated 3D
-Just for having some fun, I propose using a [3D-GAN](https://github.com/zck119/3dgan-release).
-We will be trying to generate the 3D model using natural language descriptions, like in this [paper](https://arxiv.org/pdf/1804.01622v1.pdf), by feeding the output latent vector of the Variational Auto-Encoder(VAE) to the 3D-GAN.
+* Just for having some fun, I propose using a [3D-GAN](https://github.com/zck119/3dgan-release). <br> We will be trying to generate the 3D model using natural language descriptions, like in this [paper](https://arxiv.org/pdf/1804.01622v1.pdf), by feeding the output latent vector of the Variational Auto-Encoder(VAE) to the 3D-GAN.
+* Another method, for those that don't want to write their model out, can be the one described in this [paper](https://makegirlsmoe.github.io/assets/pdf/technical_report.pdf). Even though the article refers to generating cartoon characters, I believe it can be adapted to human-like models.
 
 ### Pose generator
 Research in process.
