@@ -61,10 +61,14 @@ This implies much more than what I indicated earlier. Planning, creativity and w
 Research in progress.
 
 ## Body
-For the full body generation, I propose using a PSGAN as described [here](http://dena.com/intl/anime-generation/). Even though the article refers to generating cartoon characters, I believe that we can adapt this to generate a more human-like one. Going even further, I am trying to find a way to generate the body using natural language descriptions, like in this [paper](https://arxiv.org/pdf/1804.01622v1.pdf).
+For the full body generation, I propose using a [3D-GAN](https://github.com/zck119/3dgan-release).
+We will be trying to generate the body using natural language descriptions, like in this [paper](https://arxiv.org/pdf/1804.01622v1.pdf), by feeding the output latent vector of the Variational Auto-Encoder(VAE) to the 3D-GAN .
 
 ### Pose generator
 Research in process.
+
+### Linking the 3D model with the pose
+Using a PSGAN, as described [here](http://dena.com/intl/anime-generation/), we can link the preprocessed model and different poses that correspond to a certain situation.
 
 ## Drawbacks
 The goal of this project is to run all of the previously mentioned systems at once. This means that a lot of RAM and VRAM is needed to process visual cues, text and body functions.
