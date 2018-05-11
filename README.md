@@ -61,8 +61,12 @@ This implies much more than what I indicated earlier. Planning, creativity and w
 Research in progress.
 
 ## Body
-For the full body generation, I propose using a [3D-GAN](https://github.com/zck119/3dgan-release).
-We will be trying to generate the body using natural language descriptions, like in this [paper](https://arxiv.org/pdf/1804.01622v1.pdf), by feeding the output latent vector of the Variational Auto-Encoder(VAE) to the 3D-GAN .
+
+If no model is given and if the user does not like the native one, it can be generated using a Generative Adversarial Network.
+
+### Generated 3D
+Just for having some fun, I propose using a [3D-GAN](https://github.com/zck119/3dgan-release).
+We will be trying to generate the 3D model using natural language descriptions, like in this [paper](https://arxiv.org/pdf/1804.01622v1.pdf), by feeding the output latent vector of the Variational Auto-Encoder(VAE) to the 3D-GAN.
 
 ### Pose generator
 Research in process.
@@ -79,7 +83,7 @@ Using cloud computing, for now, is out of the question.
  
 ## Author notes
 
-This will be a long journey. I created this repository with the intention to keep track of my work and hopefully become more motivated with this project. I don't know how much I can do in the following months because I have some exams to take care of, but I believe that I will start working consistently on this project after graduating this year from highschool. I'm open to new ideas and hopefully, with the experience I will gather in the next few years and with the development of open source technologies that I could use, I can bring Kat to a build that is working decently.
+This will be a long journey. I created this repository with the intention to keep track of my work and hopefully become more motivated with this project. I don't know how much I can do in the following months because I have some exams to take care of, but I believe that I will start working consistently on this project after graduating this year from highschool. I'm open to new ideas and hopefully, with the experience I will gather in the next few years and with the development of open source technologies that I can use, I can bring Kat to a build that is working decently.
 
 Of course, I can't do all of this on my own. I am looking for other people interested in developing the next-gen automatons. If you would like to contribute, please leave a message in the Issues tab.
 
