@@ -58,7 +58,10 @@ If we are to say that we, as humans, are capable of becoming self-conscious beca
 This implies much more than what I indicated earlier. Planning, creativity and who knows what else would be required to have a starting point. Until then, we can only speculate the answer.
 
 ## Body
-Work in progress.
+For the full body generation, I propose using a PSGAN as described [here](http://dena.com/intl/anime-generation/). Even though the article refers to generating cartoon characters, I believe that we can adapt this to generate a more human-like one. Going even further, I am trying to find a way to generate the body using natural language descriptions, like in this [paper](https://arxiv.org/pdf/1804.01622v1.pdf).
+
+### Pose generator
+Thought in process.
 
 ## Drawbacks
 The goal of this project is to run all of the previously mentioned systems at once. This means that a lot of RAM and VRAM is needed to process visual cues, text and body functions.
