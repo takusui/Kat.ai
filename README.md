@@ -58,7 +58,9 @@ If we are to say that we, as humans, are capable of becoming self-conscious beca
 This implies much more than what I indicated earlier. Planning, creativity and who knows what else would be required to have a starting point. Until then, we can only speculate the answer.
 
 ### Memory
-Research in progress.
+One way to efficiently store data is to use an autoencoder on the input, along with its classification. Like this, the AI will know how to handle new data, based on previous experiences. To provide an accurate answer/action, the query will return the answer/action that matches the identified classes the most.
+
+For this to be secure, the AI will keep a "journal" with all the logs that can only be accessed by it for inconsistencies. (More research needed.)
 
 ## Body
 
