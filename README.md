@@ -67,7 +67,7 @@ For this to be secure, the AI will keep a "journal" with all the logs that can o
 ### Pose generator
 Research in process.
 
-### Generated 3D
+### Generated 3D (*Not important*)
 If no model is given and if the user does not like the native one, it can be generated using a Generative Adversarial Network.
 
 * Just for having some fun, I propose using a [3D-GAN](https://github.com/zck119/3dgan-release). <br> We will be trying to generate the 3D model using natural language descriptions, like in this [paper](https://arxiv.org/pdf/1804.01622v1.pdf), by feeding the output latent vector of the Variational Auto-Encoder(VAE) to the 3D-GAN.
