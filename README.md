@@ -55,7 +55,11 @@ This does indeed raise several questions: "What is __consciousness__? How come h
 
 If we are to say that we, as humans, are capable of becoming self-conscious because we try to compare ourselves to someone else and improve our status, what stops a bot from doing the same thing? If we try to look at it from the same perspective that we view children, should we believe that an AI will aquire this trait on its own by learning about the world? How do we know that it understands what it is learning?
 
-This implies much more than what I indicated earlier. Planning, creativity and who knows what else would be required to have a starting point. Until then, we can only speculate the answer.
+Another theory suggests that consciousness is nothing more than an advanced algorithm that coordinates all our sub-processes. If the human mind boils down only to a vast number of Adversarial Neural Networks, then it may be possible to simulate it in the coming years. 
+
+Based on experience, we can train a network to use the best tool for the job, just like Google's Deepmind that plays Atari games.
+
+This implies much more than what I indicated earlier. If it was that easy, the problem of intelligence would have already been solved. Planning, creativity and who knows what else would be required to have a starting point. Until then, we can only speculate the answer.
 
 ### Memory
 One way to efficiently store data is to use an autoencoder on the input, along with its classification. Like this, the AI will know how to handle new data, based on previous experiences. To provide an accurate answer/action, the query will return the answer/action that matches the identified classes the most.
