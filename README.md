@@ -9,6 +9,10 @@ There are many posibilities when it comes to the customization:
 * Sculpt Kat's personality to match your taste.
 * Add pictures of you or of your friends so she can recognize you/them.
 
+## DISCLAIMER
+Research is still in progress. I have yet to understand better how the human mind works before translating it in a computed version. Everything below here is __subject to change__.
+Also, most of the information below will be moved to the wiki, in a much cleaner and detailed form.
+
 ## Brain structure
 ![](https://raw.githubusercontent.com/takusui/Kat.ai/master/git/brain.png)
 
