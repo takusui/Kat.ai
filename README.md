@@ -1,3 +1,6 @@
+# August Update
+## I am starting my Bachelor's Degree in Artificial Intelligence where, hopefully, I can understand much more about this project and what I am trying to achieve. I will try to be back with an update in December after I study Cognitive Science more rigurously.
+
 <img src='https://raw.githubusercontent.com/takusui/Kat.ai/master/git/kat-logo.png' height="80">
 
 Kat.ai is a multi-platform automaton, that tries to adapt to any situation. This project aims to speed up the development of intelligent bots and make them available for anyone who has enough computing power. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
