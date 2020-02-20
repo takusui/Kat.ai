@@ -1,20 +1,4 @@
-# August Update
-## I am starting my Bachelor's Degree in Artificial Intelligence where, hopefully, I can understand much more about this project and what I am trying to achieve. I will try to be back with an update in December after I study Cognitive Science more rigurously.
-
 <img src='https://raw.githubusercontent.com/takusui/Kat.ai/master/git/kat-logo.png' height="80">
-
-Kat.ai is a multi-platform automaton, that tries to adapt to any situation. This project aims to speed up the development of intelligent bots and make them available for anyone who has enough computing power. Kat will be able to run in any environment and, by using an adaptable sequence to sequence model, speak any language.
-
-There are many posibilities when it comes to the customization:
-* Add your own 3D or 2D models and backgrounds.
-* Add your own voice bank.
-* Implement custom commands.
-* Sculpt Kat's personality to match your taste.
-* Add pictures of you or of your friends so she can recognize you/them.
-
-## DISCLAIMER
-Research is still in progress. I have yet to understand better how the human mind works before translating it in a computed version. Everything below here is __subject to change__.
-Also, most of the information below will be moved to the wiki, in a much cleaner and detailed form.
 
 ## Brain structure
 ![](https://raw.githubusercontent.com/takusui/Kat.ai/master/git/brain.png)
